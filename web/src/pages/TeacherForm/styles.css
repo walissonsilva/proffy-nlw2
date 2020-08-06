@@ -52,7 +52,8 @@
 }
 
 #page-teacher-form main fieldset .input-block + .textarea-block,
-#page-teacher-form main fieldset .input-block + .select-block {
+#page-teacher-form main fieldset .input-block + .select-block,
+#page-teacher-form main fieldset .select-block + .input-block {
   margin-top: 2.4rem;
 }
 
@@ -120,7 +121,9 @@
     column-gap: 1.6rem;
   }
 
-  #page-teacher-form main .input-block  {
+  #page-teacher-form main fieldset .select-block + .input-block,
+  #page-teacher-form main fieldset .select-block + .input-block,
+  #page-teacher-form main .input-block, .select-block  {
     margin-top: 0;
   }
 
